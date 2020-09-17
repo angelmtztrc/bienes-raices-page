@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss build index.css -o src/css/main.css"
+    "build-css": "cross-env NODE_ENV=production tailwindcss build index.css -o src/css/main.css",
+    "build-css:dev": "tailwindcss build index.css -o src/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/angel-codes/bienes-raices-template#readme",
   "dependencies": {
+    "cross-env": "^7.0.2",
     "tailwindcss": "^1.8.10"
   }
 }
