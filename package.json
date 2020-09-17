@@ -1,0 +1,26 @@
+{
+  "name": "bienes-raices-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css:dev": "tailwindcss build index.css -o src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel-codes/bienes-raices-template.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "html"
+  ],
+  "author": "Angel Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angel-codes/bienes-raices-template/issues"
+  },
+  "homepage": "https://github.com/angel-codes/bienes-raices-template#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
