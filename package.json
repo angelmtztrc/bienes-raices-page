@@ -14,5 +14,8 @@
     "prettier-plugin-tailwind": "^2.2.10",
     "tailwindcss": "^2.0.4",
     "vite": "^2.1.5"
+  },
+  "dependencies": {
+    "scrollreveal": "^4.0.9"
   }
 }
